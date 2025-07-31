@@ -1,0 +1,38 @@
+/* common style */
+
+.noto {
+  font-family: "Noto Serif", serif;
+}
+*{
+   font-family: "Inter", sans-serif;
+   box-sizing: border-box;
+}
+
+.m{
+   margin-top: 120px;
+}
+
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.orange{
+   color: rgb(233, 90, 8);
+   font-weight: 700;
+   font-family: "Noto Serif", serif;
+}
+.ash{
+   color: rgba(0, 0, 0, 0.5);
+}
+.btn{
+   background-color: rgb(233, 90, 8);
+   color: white;
+}
+
+/* header */
+/* banner */
+
+/* main section */
+.plants-lover{
+   display: none;
+}

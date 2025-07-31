@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="./index.css" />
+
+    <!--  tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- noto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="">
+    <header class="container">
+      <div class="sm:block md:block lg:hidden xl:hidden 2xl:hidden h-[54px] w-full"></div>
+      
+      <section class="navbar mx-2" >
+        <nav class=" flex justify-between items-center my-2 ">
+          <img src="./assets/logo.png" alt="logo" class="h-9 lg:h-20" />
+          <ul class="flex gap-12">
+            <li class="hidden lg:block">
+              <a class="font-bold" href="">Home</a>
+            </li>
+            <li class="hidden lg:block"><a class="ash" href="">Shop</a></li>
+            <li class="hidden lg:block"><a class="ash" href="">About us</a></li>
+            <li>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="banner flex flex-col-reverse lg:flex-row mt-7 lg:mt-28 ">
+        <div class="b-text lg:mt-40 mx-2 mt-3.5 lg:m-0">
+          <h1 class="b-title font-bold text-2xl lg:text-6xl my-3.5">
+            ALWAYS <span class="orange">FRESH<br />FLOWERS</span>
+          </h1>
+          <p class="b-description ash text-sm lg:text-2xl">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <img class="w-full" src="./assets/hero-flower.png" alt="" />
+      </section>
+    </header>
+
+    
+
+  </body>
+</html>

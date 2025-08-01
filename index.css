@@ -2,6 +2,7 @@
 
 .noto {
   font-family: "Noto Serif", serif;
+  font-weight: 700;
 }
 *{
    font-family: "Inter", sans-serif;
@@ -29,6 +30,7 @@
    background-color: rgb(233, 90, 8);
    color: white;
 }
+
 
 /* header */
 header{

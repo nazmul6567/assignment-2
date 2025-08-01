@@ -39,7 +39,7 @@
     <header class="container">
       <div class="block lg:hidden xl:hidden 2xl:hidden h-[54px] w-full"></div>
 
-      <section class="navbar mx-2">
+      <section class="navbar px-2">
         <nav class="flex justify-between items-center my-2">
           <img src="./assets/logo.png" alt="logo" class="h-9 lg:h-20" />
           <ul class="flex gap-12">
@@ -56,7 +56,7 @@
       </section>
 
       <section class="banner flex flex-col-reverse lg:flex-row mt-7 lg:mt-28">
-        <div class="b-text lg:mt-40 mx-2 mt-3.5 lg:m-0">
+        <div class="b-text lg:mt-40 px-2 mt-3.5 lg:m-0">
           <h1 class="b-title font-bold text-2xl lg:text-6xl my-3.5">
             ALWAYS <span class="orange">FRESH<br />FLOWERS</span>
           </h1>
@@ -71,7 +71,7 @@
     </header>
 
     <main>
-      <section class="plant container mt-14 lg:mt-28">
+      <section class="plant container px-2 mt-14 lg:mt-28">
         <div class="p-text text-center mb-7 lg:mb-12">
           <h1 class="p-title orange text-2xl lg:text-5xl">
             Our <span class="noto text-black">Plants</span>
@@ -82,7 +82,7 @@
             variety of fresh.
           </p>
         </div>
-        <div class="mx-2 grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
           <div class="cart">
             <img
               class="h-48 lg:h-80 w-full"
@@ -182,10 +182,8 @@
         </div>
       </section>
 
-      <section class="lover container mt-10 lg:mt-52 mb-32">
-        <div
-          class="l-content mx-2 lg:flex justify-center items-center lg:gap-15"
-        >
+      <section class="lover container px-2 mt-10 lg:mt-52 mb-32">
+        <div class="l-content lg:flex justify-center items-center lg:gap-15">
           <img
             src="./assets/flower-store.png"
             alt=""
@@ -220,6 +218,71 @@
         </div>
       </section>
 
+      <section class="deal mt-36 lg:mt-32 mb-16 lg:mb-32 container px-2">
+        <div class="text text-center mb-12 lg:mb-28">
+          <h1 class="d-title mb-4 text-2xl lg:text-5xl font-bold orange">
+            Latest <span class="text-black noto">Deals</span>
+          </h1>
+          <p class="d-description ash text-sm lg:text-2xl px-3 lg:px-32">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 w-full lg:gap-7 gap-3 text-xl"
+        >
+          <div
+            class="w-full flex flex-col items-center justify-centern lg:gap-7 gap-3 rounded-2xl overflow-hidden"
+          >
+            <div class="w-full relative rounded-2xl overflow-hidden">
+              <img
+                src="./assets/deal-bloom.png"
+                alt=""
+                class="object-cover w-full"
+              />
+              <div
+                class="absolute bg-black/40 inset-0 text-white flex flex-col justify-center items-center"
+              >
+                <p class="noto">60% Off | Bloom Plant</p>
+                <p class="underline py-4 px-12">Shop Now</p>
+              </div>
+            </div>
+
+            <div class="w-full relative rounded-2xl overflow-hidden">
+              <img
+                src="./assets/deal-ana.png"
+                alt=""
+                class="object-cover w-full"
+              />
+              <div
+                class="absolute bg-black/40 inset-0 text-white flex flex-col justify-center items-center"
+              >
+                <p class="noto">30% Off | Ana Plant</p>
+                <p class="underline py-4 px-12">Shop Now</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full lg:col-span-2">
+            <div class="w-full relative rounded-2xl overflow-hidden h-full">
+              <img
+                src="./assets/deal-zabo.png"
+                alt=""
+                class="object-cover w-full h-full"
+              />
+              <div
+                class="absolute bg-black/40 inset-0 text-white flex flex-col justify-center items-center"
+              >
+                <p class="noto lg:text-3xl">25% Off | Zabo Plant</p>
+                <p class="underline lg:text-2xl">Shop Now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
         class="join bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center pt-28 lg:pt-48 pb-16 lg:pb-44"
       >
@@ -244,9 +307,7 @@
     </main>
 
     <footer class="py-12 px-5 lg:px-40">
-
       <div class="grid lg:grid-cols-4 gap-5 lg:gap-28">
-
         <div class="logo-section lg:mb-16">
           <img
             src="./assets/logo.png"
@@ -259,22 +320,28 @@
           </p>
         </div>
 
-        <div class="home grid grid-rows-4 gap-8">
+        <div class="home grid grid-rows-4 gap-8 ash">
           <a href="">Home</a><a href="">About Us</a><a href="">Blog</a
           ><a href="">FAQ</a><a href="">Contact Us</a>
         </div>
 
-        <div class="features grid grid-rows-4 gap-8">
-         <a href="">Features</a><a href="">Pricing</a><a href="">Privacy Policy</a><a href="">Terms of Service</a><a href="">Help Center</a>
+        <div class="features grid grid-rows-4 gap-8 ash">
+          <a href="">Features</a><a href="">Pricing</a
+          ><a href="">Privacy Policy</a><a href="">Terms of Service</a
+          ><a href="">Help Center</a>
         </div>
 
         <div class="icon grid grid-cols-4">
-         <img src="./assets/icon-linkedin.png" alt=""><img src="./assets/icon-twitter.png" alt="" class="mt-[9px] mb-[9px] lg:mb-[221px]"><img src="./assets/icon-facebook.png" alt=""><img src="./assets/icon-youtube.png" alt="">
+          <img src="./assets/icon-linkedin.png" alt="" /><img
+            src="./assets/icon-twitter.png"
+            alt=""
+            class="mt-[9px] mb-[9px] lg:mb-[221px]"
+          /><img src="./assets/icon-facebook.png" alt="" /><img
+            src="./assets/icon-youtube.png"
+            alt=""
+          />
         </div>
-
       </div>
-      
     </footer>
-
   </body>
 </html>

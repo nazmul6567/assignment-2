@@ -14,7 +14,8 @@
 
 .container{
    max-width: 1140px;
-   margin: 0 auto;
+   margin-left: auto;
+   margin-right: auto;
 }
 .orange{
    color: rgb(233, 90, 8);
@@ -30,9 +31,15 @@
 }
 
 /* header */
-/* banner */
+header{
+   display: none;
+}
 
 /* main section */
-.plants-lover{
+.plant{
+   display: none;
+}
+
+.lover{
    display: none;
 }

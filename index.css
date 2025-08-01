@@ -32,14 +32,18 @@
 
 /* header */
 header{
-   display: none;
+   /* display: none; */
 }
 
 /* main section */
 .plant{
-   display: none;
+   /* display: none; */
 }
 
 .lover{
-   display: none;
+   /* display: none; */
+}
+
+.join{
+   /* display: none; */
 }
